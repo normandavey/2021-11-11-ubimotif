@@ -269,7 +269,7 @@ Edit the text to match who can attend the workshop. For instance:
   
   <p id="need-help-with-installation?">
     <strong>Need help with installation?:</strong>
-    Please read <a href="http://swcarpentry.github.io/python-novice-gapminder/setup.html" target="_blank">Setup</a> section carefully. If you need help with installation, please arrive at the training venue at 09:00 am (30 minutes before the workshop starts) on 11 November (first day of the workshop).
+    Please read <a href="http://swcarpentry.github.io/python-novice-gapminder/setup.html" target="_blank">Setup</a> section carefully. If you need help with installation, please arrive at the training venue on 11 November at 09:00 am (30 minutes before the training starts).
 </p>
 
 
@@ -407,7 +407,7 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to software as described below.
-  In addition, you will need an up-to-date web browser. <strong>Need help with installation?</strong> drop by Data Lab, KUB Nord - Natur og Sundhedsvidenskab, Nørre Allé 49, 2200 København N, on the 22nd September between 12:30 pm and 2pm.
+  In addition, you will need an up-to-date web browser. <strong>Need help with installation?</strong> arrive at the training venue on 11 November at 09:00 am (30 minutes before the training starts).
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
