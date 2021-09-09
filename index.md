@@ -264,15 +264,12 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to students, researchers and staff affiliated the University of Copenhagen and University Library, with @*.ku.dk, @kb.dk, @itu.dk addresses. 
+    This workshop is offered internally to the PhD students of Unimotif consortium. If external students want to attend this workshop, please contact the organisers.
   </p>
-  
-  <p id="register-here">
-  <strong>Register here:</strong> <a href="https://kubkalender.kb.dk/event/3773049" target="_blank">Copenhagen University Library</a>
   
   <p id="need-help-with-installation?">
     <strong>Need help with installation?:</strong>
-    Please read <a href="https://datacarpentry.org/socialsci-workshop/setup-r-workshop.html" target="_blank">Setup</a> section carefully. If you need help with installation drop by our Data Lab, KUB Nord - Natur og Sundhedsvidenskab, Nørre Allé 49, 2200 København N, on the 22nd September between 12:30 pm and 2pm.
+    Please read <a href="http://swcarpentry.github.io/python-novice-gapminder/setup.html" target="_blank">Setup</a> section carefully. If you need help with installation, please arrive at the training venue at 09:00 am (30 minutes before the workshop starts) on 11 November (first day of the workshop).
 </p>
 
 
@@ -284,7 +281,7 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Everyone who participates in Carpentries activities is required to abide by the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident. You can also directly contact Malvika Sharan, who is the incident response chair of The Carpentries Code of Conduct committee.
 </p>
 
 <p class="text-center">
