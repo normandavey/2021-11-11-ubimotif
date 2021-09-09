@@ -33,6 +33,12 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 
+
+{% comment %}
+8< ============================= until here ==================
+{% endcomment %}
+
+
 {% comment %}
 Check DC curriculum
 {% endcomment %}
@@ -56,6 +62,27 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </div>
 {% endunless %}
 {% endif %}
+
+{% comment %}
+EVENTBRITE
+
+This block includes the Eventbrite registration widget if
+'eventbrite' has been set in the header.  You can delete it if you
+are not using Eventbrite, or leave it in, since it will not be
+displayed if the 'eventbrite' field in the header is not set.
+{% endcomment %}
+{% if page.eventbrite %}
+<strong>Some adblockers block the registration window. If you do not see the
+  registration box below, please check your adblocker settings.</strong>
+<iframe
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="280px"
+  scrolling="auto">
+</iframe>
+{% endif %}
+
 
 <h2 id="general">General Information</h2>
 
@@ -166,7 +193,7 @@ special instructions.
   <strong>Accessibility:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
-  accessible to everybody.  For workshops at a physical location, the workshop organizers have checked that:
+  accessible to everybody. The workshop organizers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
@@ -232,12 +259,22 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
+  
+  {% endcomment %}
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to students, researchers and staff affiliated the University of Copenhagen and University Library, with @*.ku.dk, @kb.dk, @itu.dk addresses. 
+  </p>
+  
+  <p id="register-here">
+  <strong>Register here:</strong> <a href="https://kubkalender.kb.dk/event/3773049" target="_blank">Copenhagen University Library</a>
+  
+  <p id="need-help-with-installation?">
+    <strong>Need help with installation?:</strong>
+    Please read <a href="https://datacarpentry.org/socialsci-workshop/setup-r-workshop.html" target="_blank">Setup</a> section carefully. If you need help with installation drop by our Data Lab, KUB Nord - Natur og Sundhedsvidenskab, Nørre Allé 49, 2200 København N, on the 22nd September between 12:30 pm and 2pm.
 </p>
-{% endcomment %}
+
 
 <hr/>
 
@@ -373,7 +410,7 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser. <strong>Need help with installation?</strong> drop by Data Lab, KUB Nord - Natur og Sundhedsvidenskab, Nørre Allé 49, 2200 København N, on the 22nd September between 12:30 pm and 2pm.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
