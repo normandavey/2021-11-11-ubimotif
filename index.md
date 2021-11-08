@@ -445,7 +445,7 @@ Please check the "Setup" page of
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
 
-<p><strong>Sponsors and supporters:</strong></p>
-<p>This course is supported by <a href="https://elixir-europe.org/">ELIXIR</a></p>
+<p><strong>Support and Collaboration:</strong></p>
+<p>This course is supported by <a href="https://elixir-europe.org/">ELIXIR</a>, represented by the co-instructor Lisanna Paladin.</p>
 <p><img src="https://www.dissco.eu/wp-content/uploads/Elixir-Europe-logo-1.png" width="309" height="80" /></p>
 <hr />
