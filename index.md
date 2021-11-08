@@ -73,13 +73,13 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
+registration box below, please check your adblocker settings.</strong>
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
+src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+frameborder="0"
+width="100%"
+height="280px"
+scrolling="auto">
 </iframe>
 {% endif %}
 
@@ -259,14 +259,14 @@ Edit the text to match who can attend the workshop. For instance:
 - This workshop is open to the public.
 - If you are interested in attending this workshop, contact me@example.com
   for more information
-  
+
   {% endcomment %}
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
     This workshop is offered internally to the PhD students of Unimotif consortium. If external students want to attend this workshop, please contact the organisers.
   </p>
-  
+
   <p id="need-help-with-installation?">
     <strong>Need help with installation?:</strong>
     Please read <a href="http://swcarpentry.github.io/python-novice-gapminder/setup.html" target="_blank">Setup</a> section carefully. If you need help with installation, please arrive at the training venue on 11 November at 09:00 am (30 minutes before the training starts).
@@ -414,6 +414,10 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+<h3 id="files">Getting the data</h3>
+<p>Download and unzip the file <a href="https:///normandavey/2021-11-11-ubimotif/data/disorder_data.zip">disorder_data</a>.</p>
+<hr/>
+
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -445,7 +449,7 @@ Please check the "Setup" page of
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
 
-<p><strong>Support and Collaboration:</strong></p>
+<h2 id="support">Support and Collaboration:</h2>
 <p>This course is supported by <a href="https://elixir-europe.org/">ELIXIR</a>, represented by the co-instructor Lisanna Paladin.</p>
-<p><img src="https://www.dissco.eu/wp-content/uploads/Elixir-Europe-logo-1.png" width="309" height="80" /></p>
-<hr />
+<p><img src="https://www.dissco.eu/wp-content/uploads/Elixir-Europe-logo-1.png" height="80" /></p>
+<hr/>
